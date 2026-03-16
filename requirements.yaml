@@ -1,0 +1,10 @@
+packages:
+  "framer-motion": "For premium scroll animations and luxurious component entry effects"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+notes:
+  - This is a static portfolio landing page, no backend required.
+  - Using provided public/logo.jpg and public/banner.png assets.
+  - Enforcing strict dark mode with steel blue / deep navy aesthetic.
+  - Arabic language requires right-to-left (RTL) layout.
