@@ -24,37 +24,6 @@ export function Social() {
   ];
 
   return (
-    <section className="py-20 bg-background relative border-t border-white/5">
-      <div className="container px-4 md:px-6 mx-auto text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="text-3xl font-bold text-white mb-10">تابعنا على شبكات التواصل</h2>
-          
-          <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
-            {socials.map((social, idx) => (
-              <a
-                key={idx}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={social.name}
-                className={`
-                  w-20 h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center
-                  bg-card border border-white/10 text-white/70
-                  transition-all duration-300 transform hover:-translate-y-2
-                  ${social.color}
-                `}
-              >
-                {social.icon}
-              </a>
-            ))}
-          </div>
-        </motion.div>
-      </div>
-    </section>
+
   );
 }
